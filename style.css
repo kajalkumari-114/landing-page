@@ -1,0 +1,149 @@
+*{
+    padding : 0;
+    margin : 0;
+    border : border-box;
+}
+.nav-bar{
+    height : 80px;
+    color: white;
+    display : flex;
+    justify-content: space-evenly;
+    background-color: #5D0E41;
+}
+.logo {
+    position : absolute;
+    left : 20px;
+    top : 20px;
+    color : white;
+    font-family: Georgia;
+}
+#first {
+    font-size : 30px;
+    font-weight: bold;
+    color:rgba(255, 196, 0, 0.904);
+}
+#second {
+    font-size : 20px;
+}
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-product{
+    border : none;
+    height : 45px;
+    width : 300px;
+    font-size: 15px;
+}
+.icon {
+    background-color:rgba(255, 196, 0, 0.904) ;
+    border : none;
+    height : 45px;
+    width : 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size : 20px;
+}
+.nav-menu {
+    display : flex;
+    align-items: center;
+} 
+.nav-menu li {
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    font-size : 25px;
+}
+.hero-sec{
+    background-image: url("img10.jpg");
+    background-size: cover;
+    height : 500px;
+    width : 100%;
+    background-position: center; 
+}
+.btn{
+    padding : 10px 15px;
+    background-color: rgb(212, 123, 7);
+    position:absolute;
+    right : 300px;
+    top : 450px;
+    font-size: 20px;
+    color : white;
+}
+.box {
+    height : 340px;
+    width : 28%;
+    background-color: white;
+    margin-top : 30px;
+    padding: 15px;
+}
+.shop-sec {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+} 
+.box p {
+    color : rgba(42, 113, 206, 0.904);
+    padding-left: 10px;
+    font-size : 15px;
+}
+.img1 {
+    background-image: url("img12.jpg");
+    background-size: cover;
+    background-position: center;
+    height : 300px; 
+    margin : 10px;
+}
+.img2 {
+    background-image: url("img6.jpg");
+    background-size: cover;
+    background-position: center;
+    height : 300px;
+    margin : 10px;
+}
+.img3 {
+    background-image: url("img13.jpg");
+    background-size: cover;
+    background-position: center;
+    height : 300px;
+    margin : 10px;
+}
+.foot-panel {
+    height : 30px;
+    background-color: pink;
+}
+.foot-msg {
+    background-color: #5D0E41;
+}
+.footer-link {
+    color : white;
+    height : 300px;
+    padding : 30px;
+    display : flex;
+    justify-content: space-evenly;
+} 
+.footer-link li {
+    list-style-type: none;
+    font-size : 20px;
+    padding : 10px;
+}
+.footer-link p {
+    margin-bottom : 20px;
+    font-size: 25px;
+    color : rgba(255, 196, 0, 0.904);
+}
+.footer-follow {
+    font-size : 20px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.footer-follow i {
+    margin : 0px 15px ;
+    color : white;
+}
+.footer-follow p{
+ color : rgba(255, 196, 0, 0.904);
+}
